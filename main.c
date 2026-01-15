@@ -1,15 +1,28 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-//102 c data types
+//103 c conditionals
 int main(){
-    int age=10;
-    double height=1.75; 
-    char grade ='A';
-    float weight =60.5;
+  
+    int x=-10;
 
-    printf("\nYour age is %d and height %lf and your grade is %c and your weight is %f \n\n",age,height,grade,weight);
+    if(x<0){
+        printf("X is negative number\n");
+    }else{
+        printf("X is posetive number\n");
+    }
 
+    double grade = 95;
+
+    if(grade>90){
+        printf("Student got A+\n");
+    }else if(grade>85){
+        printf("Student got A");
+
+    }else if(grade>75){
+       printf("Student got b+\n");
+    }
+ 
 
     
     return 0;
